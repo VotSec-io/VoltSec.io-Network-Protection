@@ -13,7 +13,7 @@ VoltSec.io Network Protection is a project aimed at providing network security a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/voltsec-network-protection.git
+   git clone https://github.com/VotSec-io/voltsec-network-protection.git
 
 Install the necessary dependencies:
 
