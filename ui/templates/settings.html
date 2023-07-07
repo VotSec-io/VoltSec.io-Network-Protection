@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>VoltSec.io Network Protection - Settings</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>VoltSec.io Network Protection</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/firewall/rules">Firewall Rules</a></li>
+                <li><a href="/logging">Logging</a></li>
+                <li><a href="/settings">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Settings</h2>
+        <form action="/settings" method="POST">
+            <label for="email">Email Notifications:</label>
+            <input type="checkbox" id="email" name="email" checked>
+            <br>
+            <label for="log-level">Log Level:</label>
+            <select id="log-level" name="log-level">
+                <option value="info">Info</option>
+                <option value="warning">Warning</option>
+                <option value="error">Error</option>
+            </select>
+            <br>
+            <input type="submit" value="Save Settings">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 VoltSec.io Network Protection</p>
+    </footer>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
