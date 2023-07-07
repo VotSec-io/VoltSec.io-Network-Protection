@@ -1,6 +1,4 @@
-// Add JavaScript code specific to your project
 
-// Example code: Display a confirmation dialog when submitting the settings form
 document.addEventListener("DOMContentLoaded", function() {
     var form = document.querySelector("form");
 
@@ -14,5 +12,3 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
-
-// Add more JavaScript code as needed for your project
